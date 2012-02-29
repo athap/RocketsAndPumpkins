@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DisplayImage!</string>
+    <string name="app_name">Rockets and Pumpkins</string>
+    <string name="welcome_text">Hello. Welcome to Rocket and Pumkins </string>
+    <string name="target_distance_text">Pumkin is at </string>    
+    <string name="target_height_text">Pumkin height is </string>
+    <string name="launch_angle_text">Launch angle is </string>
+    <string name="launch_velocity_text">Launch velocity is </string>
+    <string name="set_angle_text">Please set the launch angle by scrolling your thumb up and down.</string>
+    <string name="set_velocity_text">Please set the launch velocity by scrolling your thumb up and down.</string>
+    <string name="select_value_text">Double tap the screen to finalize the value. To reset SHAKE your phone</string>
+    <string name="launch_rocket_text">Double tap the screen to launch the rocket</string>
+    <string name="decrease_angle_text">You missed. Decrease the angle for better result</string>
+    <string name="increase_angle_text">You missed. Increase the angle for better result</string>
+    <string name="increase_velocity_text">You missed. Increase the velocity for better result</string>
+    <string name="decrease_velocity_text">You missed. Decrease the velocity for better result</string>
+    <string name="target_successfully_hit_text">Deudde, You did it. Bulls eye. Pumkins are angry.</string>
+    <string name="reset_text">Values resetted </string>
+    <string name="current_score_text">Score: </string>
+    <string name="maximum_score_text">Maximum Score: </string>
+</resources>

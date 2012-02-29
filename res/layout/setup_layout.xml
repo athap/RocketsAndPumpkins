@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+    <LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="left"
+    	android:id="@+id/reading" 
+    	android:text="Value"
+    	android:layout_marginRight="15dp"
+    	android:layout_marginLeft="15dp">
+    	</TextView>
+    	<TextView 
+    		android:text="Current Score" 
+    		android:id="@+id/current_score" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center_horizontal"
+    		android:layout_marginRight="15dp">
+    	</TextView>
+    	<TextView 
+    		android:text="High Score" 
+    		android:id="@+id/high_score" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="right">
+    	</TextView>	
+    </LinearLayout>
+    
+    <atul.android.finalproject.VerticalSeekBar 
+    	android:id="@+id/seekbar"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:max="90">
+    </atul.android.finalproject.VerticalSeekBar>    
+</LinearLayout>
